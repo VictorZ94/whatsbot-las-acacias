@@ -3,7 +3,6 @@ import { createFlow } from "@builderbot/bot";
 
 // @flows
 import { welcomeFlow } from "./welcome.flow.js";
-import { flowApartamento } from "./apto.flow.js";
-import { flowCasa } from "./casa.flow.js";
+import { flowReservar } from "./reservar.flow.js";
 
-export const flow = createFlow([welcomeFlow, flowApartamento, flowCasa]);
+export const flow = createFlow([welcomeFlow, flowReservar]);
