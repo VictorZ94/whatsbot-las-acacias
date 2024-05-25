@@ -1,5 +1,7 @@
 // @packages
 import { addKeyword } from "@builderbot/bot";
+
+// @flows
 import { flowReservar } from "./reservar.flow.js";
 
 export const flowCasa = addKeyword(
