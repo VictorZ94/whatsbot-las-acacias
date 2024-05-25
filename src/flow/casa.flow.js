@@ -12,7 +12,7 @@ export const flowCasa = addKeyword(
     "Casa para 10 personas",
     "\nTarifa mínima $350.000 para 4 personas la noche. Persona adicional $70.000. Tarifa total $700.000",
     "*photos:* https://whatsbot-photos.vercel.app/",
-    "\n*reservar* Si desea reservar favor tener clara la fecha de llegada y salida, número de personas y selecciona el siguiente.",
+    "\n*reservar* Si desea reservar favor tener clara la fecha de llegada y salida y número de personas.",
   ],
   { media: "https://i.imgur.com/AcN1rRy.jpg" },
   null,
