@@ -13,7 +13,7 @@ export const flowApartamento = addKeyword(
     "*Apartamento para 7 personas*",
     "\nTarifa mínima $160.000 por pareja la noche. Persona adicional $70.000. Tarifa total $490.000.",
     "*photos:* https://whatsbot-photos.vercel.app/",
-    "\nSi deseas reservar favor selecciona el siguiente *[link]* para mirar disponibilidad",
+    "\n*reservar* Si desea reservar favor tener clara la fecha de llegada y salida y número de personas.",
   ],
   { media: "https://i.imgur.com/HNNAslL.jpg" },
   null,
