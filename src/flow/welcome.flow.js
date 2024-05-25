@@ -24,7 +24,8 @@ export const welcomeFlow = addKeyword([
   async (ctx, { fallBack }) => {
     if (
       !ctx.body.toLocaleLowerCase().includes("1") &&
-      !ctx.body.toLocaleLowerCase().includes("2")
+      !ctx.body.toLocaleLowerCase().includes("2") &&
+      !ctx.body.toLocaleLowerCase().includes("reservar")
     ) {
       return fallBack(
         "Debes seleccionar entre 1 o 2 para obtener más información"
