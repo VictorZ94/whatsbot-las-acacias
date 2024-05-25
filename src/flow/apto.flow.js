@@ -1,6 +1,9 @@
 // @packages
 import { addKeyword } from "@builderbot/bot";
+
+// @flows
 import { flowReservar } from "./reservar.flow.js";
+import { flowCasa } from "./casa.flow.js";
 
 export const flowApartamento = addKeyword(
   "1",
@@ -17,5 +20,5 @@ export const flowApartamento = addKeyword(
   ],
   { media: "https://i.imgur.com/HNNAslL.jpg" },
   null,
-  [flowReservar]
+  [flowCasa, flowReservar]
 );
