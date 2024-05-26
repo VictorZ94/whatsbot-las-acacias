@@ -16,7 +16,7 @@ export const flowCasa = addKeyword(
     "*photos:* https://whatsbot-photos-casa-nine.vercel.app/",
     "\n*reservar* Si desea reservar favor tener clara la fecha de llegada y salida y número de personas.",
   ],
-  { media: "https://i.imgur.com/AcN1rRy.jpg" },
+  { media: "https://i.imgur.com/HNNAslL.jpg" },
   null,
   [flowReservar]
 );
