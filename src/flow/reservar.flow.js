@@ -8,7 +8,7 @@ export const flowReservar = addKeyword("reservar", "asesor", "book")
     const message = `Hola, Quiero hacer una reserva \nMi contacto es: \n${ctx.from} \n${ctx.name}`;
 
     //numero de telefono con el prefijo de tu pais
-    const number = "573218590287";
+    const number = "573112119856";
 
     await provider.sendText(`${number}@s.whatsapp.net`, message);
     console.log(ctx);
