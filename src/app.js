@@ -76,10 +76,6 @@ const main = async () => {
   });
 
   httpServer(+PORT);
-  adapterProvider.on("message", (payload) => {
-    console.log("payload", payload, "\n"); // Agrega un salto de línea después del payload
-    console.log("------------------------------------"); // Agrega una línea de guiones
-  });
 };
 
 main();
